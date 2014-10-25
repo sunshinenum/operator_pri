@@ -1,0 +1,6 @@
+E>E+T|T
+T>T*F|F
+F>P^F|P
+P>P-G|G
+G>(E)|i
+H>#E#

@@ -1,0 +1,90 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: operator_pri - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/operator_pri.res" /d "_DEBUG" /d "_AFXDLL" "E:\Projects\operator_pri\operator_pri.rc"" 
+Creating temporary file "F:\TEMP\RSPF974.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/operator_pri.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Projects\operator_pri\chara_list.cpp"
+"E:\Projects\operator_pri\operator_pri.cpp"
+"E:\Projects\operator_pri\operator_priDlg.cpp"
+"E:\Projects\operator_pri\stack.cpp"
+]
+Creating command line "cl.exe @F:\TEMP\RSPF974.tmp" 
+Creating temporary file "F:\TEMP\RSPF975.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/operator_pri.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Projects\operator_pri\StdAfx.cpp"
+]
+Creating command line "cl.exe @F:\TEMP\RSPF975.tmp" 
+Creating temporary file "F:\TEMP\RSPF976.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/operator_pri.pdb" /debug /machine:I386 /out:"Debug/operator_pri.exe" /pdbtype:sept 
+.\Debug\chara_list.obj
+.\Debug\operator_pri.obj
+.\Debug\operator_priDlg.obj
+.\Debug\stack.obj
+.\Debug\StdAfx.obj
+.\Debug\operator_pri.res
+]
+Creating command line "link.exe @F:\TEMP\RSPF976.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+chara_list.cpp
+operator_pri.cpp
+operator_priDlg.cpp
+E:\Projects\operator_pri\operator_priDlg.cpp(247) : warning C4018: '<' : signed/unsigned mismatch
+E:\Projects\operator_pri\operator_priDlg.cpp(267) : warning C4018: '<' : signed/unsigned mismatch
+E:\Projects\operator_pri\operator_priDlg.cpp(283) : warning C4018: '<' : signed/unsigned mismatch
+E:\Projects\operator_pri\operator_priDlg.cpp(299) : warning C4018: '<' : signed/unsigned mismatch
+E:\Projects\operator_pri\operator_priDlg.cpp(310) : warning C4018: '<' : signed/unsigned mismatch
+E:\Projects\operator_pri\operator_priDlg.cpp(330) : warning C4018: '<' : signed/unsigned mismatch
+E:\Projects\operator_pri\operator_priDlg.cpp(343) : warning C4018: '<' : signed/unsigned mismatch
+E:\Projects\operator_pri\operator_priDlg.cpp(364) : warning C4018: '<' : signed/unsigned mismatch
+E:\Projects\operator_pri\operator_priDlg.cpp(366) : warning C4018: '<' : signed/unsigned mismatch
+E:\Projects\operator_pri\operator_priDlg.cpp(375) : warning C4018: '<' : signed/unsigned mismatch
+E:\Projects\operator_pri\operator_priDlg.cpp(390) : warning C4018: '<' : signed/unsigned mismatch
+E:\Projects\operator_pri\operator_priDlg.cpp(402) : warning C4018: '<' : signed/unsigned mismatch
+E:\Projects\operator_pri\operator_priDlg.cpp(416) : warning C4018: '<' : signed/unsigned mismatch
+E:\Projects\operator_pri\operator_priDlg.cpp(436) : warning C4018: '<' : signed/unsigned mismatch
+E:\Projects\operator_pri\operator_priDlg.cpp(439) : warning C4018: '<' : signed/unsigned mismatch
+E:\Projects\operator_pri\operator_priDlg.cpp(448) : warning C4018: '<' : signed/unsigned mismatch
+E:\Projects\operator_pri\operator_priDlg.cpp(461) : warning C4018: '<' : signed/unsigned mismatch
+E:\Projects\operator_pri\operator_priDlg.cpp(479) : warning C4018: '<' : signed/unsigned mismatch
+E:\Projects\operator_pri\operator_priDlg.cpp(492) : warning C4018: '<' : signed/unsigned mismatch
+E:\Projects\operator_pri\operator_priDlg.cpp(507) : warning C4018: '<' : signed/unsigned mismatch
+E:\Projects\operator_pri\operator_priDlg.cpp(514) : warning C4018: '<' : signed/unsigned mismatch
+E:\Projects\operator_pri\operator_priDlg.cpp(516) : warning C4018: '<' : signed/unsigned mismatch
+E:\Projects\operator_pri\operator_priDlg.cpp(523) : warning C4018: '<' : signed/unsigned mismatch
+E:\Projects\operator_pri\operator_priDlg.cpp(536) : warning C4018: '<' : signed/unsigned mismatch
+E:\Projects\operator_pri\operator_priDlg.cpp(556) : warning C4018: '<' : signed/unsigned mismatch
+E:\Projects\operator_pri\operator_priDlg.cpp(565) : warning C4018: '<' : signed/unsigned mismatch
+E:\Projects\operator_pri\operator_priDlg.cpp(567) : warning C4018: '<' : signed/unsigned mismatch
+E:\Projects\operator_pri\operator_priDlg.cpp(597) : warning C4018: '<' : signed/unsigned mismatch
+E:\Projects\operator_pri\operator_priDlg.cpp(746) : warning C4018: '<' : signed/unsigned mismatch
+E:\Projects\operator_pri\operator_priDlg.cpp(766) : warning C4018: '<' : signed/unsigned mismatch
+E:\Projects\operator_pri\operator_priDlg.cpp(768) : warning C4018: '<' : signed/unsigned mismatch
+stack.cpp
+Generating Code...
+E:\Projects\operator_pri\operator_priDlg.cpp(753) : warning C4700: local variable 'ch_ret' used without having been initialized
+E:\Projects\operator_pri\operator_priDlg.cpp(777) : warning C4700: local variable 'ch_ret' used without having been initialized
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/operator_pri.bsc"  .\Debug\StdAfx.sbr .\Debug\chara_list.sbr .\Debug\operator_pri.sbr .\Debug\operator_priDlg.sbr .\Debug\stack.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+operator_pri.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
